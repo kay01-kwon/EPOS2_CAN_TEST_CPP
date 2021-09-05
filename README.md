@@ -22,15 +22,13 @@ Information on COB mapped to PDO
 |TxPDO3	|0x00000183	|Statusword + ActualVelocity (dlc = 6)
 |TxPDO4	|0x00000184	|Statusword + ActualPosition (dlc = 6)
 
-Data type
 
-Controlword: Unsigned16 --> 4 times 4 bits = 2 times 8 bits (dlc = 2)
-
-Modes of Operation: Unsigned8 --> 2 times 4 bits = 1 times 8 bits (dlc = 1)
-
-TargetVelocity: Integer32 --> 8 times 4 bits = 4 times 8 bits (dlc = 4)
-
-TargetPosition: Integer32 --> 8 times 4 bits = 4 times 8 bits (dlc = 4)
+|Object|Data type|dlc|
+|:---:|:---:|:---:|
+|Controlword|Unsigned16| 4 times 4 bits = 2 times 8 bits (dlc = 2)
+|Modes of Operation|Unsigned8| 2 times 4 bits = 1 times 8 bits (dlc = 1)
+|TargetVelocity|Integer32|8 times 4 bits = 4 times 8 bits (dlc = 4)
+|TargetPosition|Integer32|8 times 4 bits = 4 times 8 bits (dlc = 4)
 
 statusword: Unsigned16 --> 4 times 4 bits = 2 times 8 bits (dlc = 2)
 
