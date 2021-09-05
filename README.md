@@ -54,7 +54,7 @@ CAN_TEST/build $ cmake ..
 
 CAN_TEST/build $ make
 
-Construct CAN frame
+Construct CAN frame (Frame name = slcan0)
 
 $ sudo slcand -o -c -f -s4 /dev/ttyUSB0 && sudo ifconfig slcan0 up
 
