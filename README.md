@@ -40,6 +40,8 @@ cpp Code Operation Mode: Velocity Profile Mode
 
 How to compile and execute the code.
 
+CAN_TEST $ rm -rf build
+
 CAN_TEST $ mkdir build
 
 CAN_TEST/build $ cmake ..
