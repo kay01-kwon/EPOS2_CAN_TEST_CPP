@@ -11,8 +11,8 @@ Abbreviation
 The code uses COB mapped to PDO. 
 
 Information on COB mapped to PDO
-|:---:|:---:|:---:|
 |Object	|COB-ID	    |PDO Mapping
+|:---:|:---:|:---:|
 RxPDO1	0x00000201	Controlword (dlc = 2)
 RxPDO2	0x00000202	Controlword + Modes of Operation (dlc = 3)
 RxPDO3	0x00000203	Controlword + TargetVelocity (dlc = 6)
