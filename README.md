@@ -29,14 +29,10 @@ Information on COB mapped to PDO
 |Modes of Operation|Unsigned8| 2 times 4 bits = 1 times 8 bits (dlc = 1)
 |TargetVelocity|Integer32|8 times 4 bits = 4 times 8 bits (dlc = 4)
 |TargetPosition|Integer32|8 times 4 bits = 4 times 8 bits (dlc = 4)
-
-statusword: Unsigned16 --> 4 times 4 bits = 2 times 8 bits (dlc = 2)
-
-Modes of Operation Display: Unsigned8 --> 2 times 4 bits = 1 times 8 bits (dlc = 1)
-
-ActualVelocity: Integer32 --> 8 times 4 bits = 4 times 8 bits (dlc = 4)
-
-ActualPosition: Integer32 --> 8 times 4 bits = 4 times 8 bits (dlc = 4)
+|statusword|Unsigned16| 4 times 4 bits = 2 times 8 bits (dlc = 2)
+|Modes of Operation Display|Unsigned8|2 times 4 bits = 1 times 8 bits (dlc = 1)
+|ActualVelocity|Integer32|8 times 4 bits = 4 times 8 bits (dlc = 4)
+|ActualPosition|Integer32|8 times 4 bits = 4 times 8 bits (dlc = 4)
 
 cpp Code Operation Mode: Velocity Profile Mode
 
