@@ -1,5 +1,11 @@
 # EPOS2_CAN_TEST_CPP
 
+Control Area Network Communication (CAN)
+
+candump picture
+
+<img src = "candump_picture/can_test.png" width="913" height="516"/>
+
 Abbreviation
 
 1. Process Data Object (PDO)
