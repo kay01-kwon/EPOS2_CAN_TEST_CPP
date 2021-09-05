@@ -13,14 +13,14 @@ The code uses COB mapped to PDO.
 Information on COB mapped to PDO
 |Object	|COB-ID	    |PDO Mapping
 |:---:|:---:|:---:|
-RxPDO1	0x00000201	Controlword (dlc = 2)
-RxPDO2	0x00000202	Controlword + Modes of Operation (dlc = 3)
-RxPDO3	0x00000203	Controlword + TargetVelocity (dlc = 6)
-RxPDO4	0x00000204	Controlword + TargetPosition (dlc = 6)
-TxPDO1	0x00000181	Statusword (dlc = 2)
-TxPDO2	0x00000182	Statusword + Modes of Operation Delay (dlc = 3)
-TxPDO3	0x00000183	Statusword + ActualVelocity (dlc = 6)
-TxPDO4	0x00000184	Statusword + ActualPosition (dlc = 6)
+|RxPDO1	|0x00000201	|Controlword (dlc = 2)
+|RxPDO2	|0x00000202	|Controlword + Modes of Operation (dlc = 3)
+|RxPDO3	|0x00000203	|Controlword + TargetVelocity (dlc = 6)
+|RxPDO4	|0x00000204	|Controlword + TargetPosition (dlc = 6)
+|TxPDO1	|0x00000181	|Statusword (dlc = 2)
+|TxPDO2	|0x00000182	|Statusword + Modes of Operation Delay (dlc = 3)
+|TxPDO3	|0x00000183	|Statusword + ActualVelocity (dlc = 6)
+|TxPDO4	|0x00000184	|Statusword + ActualPosition (dlc = 6)
 
 Data type
 
