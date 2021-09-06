@@ -4,7 +4,7 @@ Control Area Network Communication (CAN)
 
 CAN Velocity data read - refer to candump.c
 
-<img src = "candump_picture/can_data_read.png" width="913" height="516"/>
+<img src = "candump_picture/CAN_data_read.png" width="913" height="516"/>
 
 candump picture
 
