@@ -18,6 +18,8 @@ Abbreviation
 
 3. Communication Object (COB)
 
+4. Data Length Code (dlc)
+
 The code uses COB mapped to PDO. 
 
 Information on COB mapped to PDO
