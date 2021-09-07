@@ -35,7 +35,7 @@ Information on COB mapped to PDO
 |TxPDO4	|0x00000184	|Statusword + ActualPosition (dlc = 6)
 
 
-|Object|Data type|dlc|
+|Process Data Object|Data type|dlc|
 |:---:|:---:|:---:|
 |Controlword|Unsigned16| 4 times 4 bits = 2 times 8 bits (dlc = 2)
 |Modes of Operation|Unsigned8| 2 times 4 bits = 1 times 8 bits (dlc = 1)
