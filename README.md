@@ -20,9 +20,9 @@ Abbreviation
 
 4. Data Length Code (dlc)
 
-The code uses COB mapped to PDO. 
+The code uses COB.
 
-Information on COB mapped to PDO
+Information on COB.
 |Object	|COB-ID	    |PDO Mapping
 |:---:|:---:|:---:|
 |RxPDO1	|0x00000201	|Controlword (dlc = 2)
