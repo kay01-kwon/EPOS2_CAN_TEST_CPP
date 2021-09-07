@@ -20,8 +20,6 @@ Abbreviation
 
 4. Data Length Code (dlc)
 
-The code uses COB.
-
 Information on COB.
 |Object	|COB-ID	    |PDO Mapping
 |:---:|:---:|:---:|
