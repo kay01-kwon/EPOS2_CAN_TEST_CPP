@@ -10,6 +10,11 @@ candump picture
 
 <img src = "candump_picture/can_test.png" width="913" height="516"/>
 
+How to save CAN Log
+```
+candump -l slcan0
+```
+
 Abbreviation
 
 1. Process Data Object (PDO)
@@ -46,22 +51,32 @@ Information on COB.
 
 cpp Code Operation Mode: Velocity Profile Mode
 
-
-
 How to compile and execute the code.
 
+```
 CAN_TEST $ rm -rf build
+```
 
+```
 CAN_TEST $ mkdir build
+```
 
+```
 CAN_TEST/build $ cmake ..
+```
 
+```
 CAN_TEST/build $ make
+```
 
 Construct CAN frame (Frame name = slcan0)
 
+```
 $ sudo slcand -o -c -f -s4 /dev/ttyUSB0 && sudo ifconfig slcan0 up
+```
 
 Execute the code
 
+```
 CAN_TEST/build $ ./CAN_TEST
+```
