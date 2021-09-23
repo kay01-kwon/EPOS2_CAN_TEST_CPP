@@ -80,3 +80,9 @@ Execute the code
 ```
 CAN_TEST/build $ ./CAN_TEST
 ```
+
+byte_test.cpp
+
+<img src = "candump_picture/byte_test.png" width="913" height="516"/>
+
+<img src = "candump_picture/byte_test_compliment.png" width="913" height="516"/>
