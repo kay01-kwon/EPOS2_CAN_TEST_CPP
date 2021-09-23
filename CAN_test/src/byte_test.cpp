@@ -1,8 +1,10 @@
 #include <iostream>
 #include <sstream>
+#include <stdio.h>
 #include <linux/types.h>
 #include <linux/socket.h>
 #include <bitset>
+#include <vector>
 
 typedef __u32 fake_can_id_t;
 
@@ -19,29 +21,17 @@ int main()
     fake_frame.data[0] = 0x0f;
     fake_frame.data[1] = 0x00;
     int input_data = 6000;
-    std::bitset<8> data_0;
-    std::bitset<8> data_1;
-    std::bitset<8> data_2;
-    std::bitset<8> data_3;
 
-    data_3 = input_data >> 8*3;
-    data_2 = input_data >> 8*2;
-    data_1 = input_data >> 8*1;
-    data_0 = input_data >> 8*0;
+    std::vector<std::bitset<8> > data_byte[4];
 
-    fake_frame.data[2] = unsigned(data_0.to_ulong());
-    fake_frame.data[3] = unsigned(data_1.to_ulong());
-    fake_frame.data[4] = unsigned(data_2.to_ulong());
-    fake_frame.data[5] = unsigned(data_3.to_ulong());
-    
+    for(int i = 0; i < 4; i++){
+        data_byte->push_back((input_data >> 8*i));
+        fake_frame.data[i+2] = unsigned(data_byte->at(i).to_ulong());
+    }
 
 
     std::cout<<"Data: \t";
     std::cout<<input_data<<std::endl;
-    //std::cout<<unsigned(data_0.to_ulong())<<std::endl;
-    //std::cout<<unsigned(data_1.to_ulong())<<std::endl;
-    //std::cout<<unsigned(data_2.to_ulong())<<std::endl;
-    //std::cout<<unsigned(data_3.to_ulong())<<std::endl;
 
     std::cout<<"Data Inserted"<<std::endl;
     std::cout<<"The first byte: ";
@@ -52,4 +42,7 @@ int main()
     std::cout<<std::hex<<unsigned(fake_frame.data[4])<<std::endl;
     std::cout<<"The fourth byte: ";
     std::cout<<std::hex<<unsigned(fake_frame.data[5])<<std::endl;
+
+    for (int i = 2; i < 6; i++)
+        printf("Index : %d \t Data : %02x \n",i,fake_frame.data[i]);
 }
