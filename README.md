@@ -83,6 +83,10 @@ CAN_TEST/build $ ./CAN_TEST
 
 byte_test.cpp
 
+The purpose of the code file is to transmit data to the EPOS2 drive.
+
+The below picture shows how the input data is inserted into the motor drive.
+
 <img src = "candump_picture/byte_test.png" width="913" height="516"/>
 
 <img src = "candump_picture/byte_test_compliment.png" width="913" height="516"/>
