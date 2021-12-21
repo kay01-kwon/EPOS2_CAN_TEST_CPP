@@ -68,6 +68,11 @@ CAN_TEST/build $ cmake ..
 ```
 CAN_TEST/build $ make
 ```
+How to check serial port name
+
+```
+dmesg | grep tty
+```
 
 Construct CAN frame (Frame name = slcan0)
 
