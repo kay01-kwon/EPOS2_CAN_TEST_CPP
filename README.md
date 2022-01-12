@@ -82,6 +82,8 @@ $ sudo slcand -o -c -f -s4 /dev/ttyUSB0 && sudo ifconfig slcan0 up
 
 |-s parameter	| Kbit/s
 |:---:|:---:|
+|s0|10
+|s1|20
 
 
 Execute the code
