@@ -77,7 +77,7 @@ dmesg | grep tty
 Construct CAN frame (Frame name = slcan0)
 
 ```
-$ sudo slcand -o -c -f -s4 /dev/ttyUSB0 && sudo ifconfig slcan0 up
+$ sudo slcand -o -c -f -s6 /dev/ttyUSB0 && sudo ifconfig slcan0 up
 ```
 
 |-s parameter	| Kbit/s
