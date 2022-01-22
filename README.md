@@ -33,9 +33,9 @@ Information on COB.
 |RxPDO3	|0x00000203	|Controlword + TargetVelocity (dlc = 6)
 |RxPDO4	|0x00000204	|Controlword + TargetPosition (dlc = 6)
 |TxPDO1	|0x00000181	|Statusword (dlc = 2)
-|TxPDO2	|0x00000182	|Statusword + Modes of Operation Delay (dlc = 3)
-|TxPDO3	|0x00000183	|Statusword + ActualVelocity (dlc = 6)
-|TxPDO4	|0x00000184	|Statusword + ActualPosition (dlc = 6)
+|TxPDO2	|0x00000281	|Statusword + Modes of Operation Delay (dlc = 3)
+|TxPDO3	|0x00000381	|Statusword + ActualVelocity (dlc = 6)
+|TxPDO4	|0x00000481	|Statusword + ActualPosition (dlc = 6)
 
 
 |Process Data Object|Data type|dlc|
