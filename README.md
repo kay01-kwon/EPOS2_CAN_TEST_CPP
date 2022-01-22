@@ -49,7 +49,9 @@ Information on COB.
 |ActualVelocity|Integer32|8 times 4 bits = 4 times 8 bits (dlc = 4)
 |ActualPosition|Integer32|8 times 4 bits = 4 times 8 bits (dlc = 4)
 
-cpp Code Operation Mode: Velocity Profile Mode
+cpp Code Operation Mode: Profile Velocity Mode
+
+Modes Of Operation Info : 3 (Profile Velocity Mode), 1 (Profile Position Mode), ... etc
 
 How to compile and execute the code.
 
