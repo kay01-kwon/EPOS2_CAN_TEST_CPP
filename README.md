@@ -110,3 +110,47 @@ The below picture shows how the input data is inserted into the motor drive.
 <img src = "candump_picture/byte_test.png" width="913" height="516"/>
 
 <img src = "candump_picture/byte_test_compliment.png" width="913" height="516"/>
+
+# Jetson tx2 nx
+
+CAN Interface setup
+
+```
+sudo modprobe can && sudo modprobe can_raw && sudo modprobe mttcan
+```
+CAN setup
+
+```
+sudo ip link set can0 type can bitrate 500000 dbitrate 2000000 berr-reporting on fd on
+```
+
+CAN network up
+
+```
+sudo ip link set up can0
+```
+
+Check
+```
+ifconfig can0
+```
+
+Complie the code
+
+```
+mkdir build
+```
+
+```
+cmake ..
+```
+
+```
+make
+```
+
+Execute the code
+
+```
+./read_write_test
+```
