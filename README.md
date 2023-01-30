@@ -154,3 +154,5 @@ Execute the code
 ```
 ./read_write_test
 ```
+
+Interrupt : press ctrl + c
