@@ -122,6 +122,11 @@ CAN setup
 
 ```
 sudo ip link set can0 type can bitrate 500000 dbitrate 2000000 berr-reporting on fd on
+
+```
+or
+```
+sudo ip link set can0 type can bitrate 500000
 ```
 
 CAN network up
