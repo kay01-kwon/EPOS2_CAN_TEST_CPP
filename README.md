@@ -121,12 +121,7 @@ sudo modprobe can && sudo modprobe can_raw && sudo modprobe mttcan
 CAN setup
 
 ```
-sudo ip link set can0 type can bitrate 500000 dbitrate 2000000 berr-reporting on fd on
-
-```
-or
-```
-sudo ip link set can0 type can bitrate 500000
+sudo ip link set can0 type can bitrate 1000000
 ```
 
 CAN network up
