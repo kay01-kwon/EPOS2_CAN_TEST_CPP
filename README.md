@@ -115,7 +115,7 @@ The below picture shows how the input data is inserted into the motor drive.
 
 <img src = "candump_picture/byte_test_compliment.png" width="913" height="516"/>
 
-# Jetson tx2 nx
+# Jetson orin nx
 
 CAN Interface setup
 
