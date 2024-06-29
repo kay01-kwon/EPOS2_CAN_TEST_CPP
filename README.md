@@ -120,6 +120,10 @@ sudo modprobe can && sudo modprobe can_raw && sudo modprobe mttcan
 ```
 CAN setup
 
+can0 interface is set.
+
+Bit rate set 1000 kbps
+
 ```
 sudo ip link set can0 type can bitrate 1000000
 ```
