@@ -25,7 +25,11 @@ Abbreviation
 
 4. Data Length Code (dlc)
 
-Information on COB.
+Information on COB and mapped PDO.
+
+RxPDO : Asynchronous
+TxPDO : Asynchronous and RTR only
+
 |Object	|COB-ID	    |PDO Mapping
 |:---:|:---:|:---:|
 |RxPDO1	|0x00000201	|Controlword (dlc = 2)
